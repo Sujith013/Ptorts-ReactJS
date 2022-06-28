@@ -6,7 +6,7 @@ const fs = require('fs');
 const mongodb = require('mongodb');
 const MongoClient = require('mongodb').MongoClient;
 
-var url = "mongodb://admin:Hardwork123@cluster0-shard-00-00.bja3i.mongodb.net:27017,cluster0-shard-00-01.bja3i.mongodb.net:27017,cluster0-shard-00-02.bja3i.mongodb.net:27017/?ssl=true&replicaSet=atlas-sjeidb-shard-0&authSource=admin&retryWrites=true&w=majority";
+var url ="";
 
 const app = express();
 
