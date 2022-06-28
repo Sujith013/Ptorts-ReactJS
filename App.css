@@ -1,0 +1,308 @@
+@import url('https://fonts.googleapis.com/css2?family=Macondo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap');
+
+.navl
+{
+  background-color: #FFE956;
+}
+
+.nbd,.nbd:hover
+{
+  vertical-align: middle;
+  padding-left: 2vw;
+  padding-right: 2vw ;
+ display: inline; 
+font-family: 'Macondo'; 
+color: #ffa200;
+font-size: 3vw;
+}
+
+.nbi,.nbi:hover
+{
+  vertical-align: middle;
+font-size: 2vw; 
+display: inline;  
+font-family: 'Macondo';
+list-style-type: none;
+color:#C4AA00;  
+text-decoration: none;
+}
+
+.nbl
+{
+  vertical-align: middle;
+  font-size: 3vw;
+  color:#ff5900;
+}
+
+.dog
+{
+  transform:scaleX(-1);
+}
+
+.sign
+{
+  border-radius: 4px;
+  max-height: 4vw;
+  width: fit-content;
+  border-color: white;
+  border-width: 0.3vw;
+  border-style: solid;
+  color: white;
+  font-family: Ubuntu;
+  background-color: #FFDD00;
+}
+
+.logt
+{
+  max-height: 4vw;
+  width: fit-content;
+  border-color: white;
+  border-width: 0.3vw;
+  border-style: solid;
+  color: white;
+  font-family: Ubuntu;
+  background-color: #FFDD00;
+}
+
+.logg,.logg:hover
+{
+  max-height: 4vw;
+  width: fit-content;
+  border-color: white;
+  border-width: 0.3vw;
+  border-style: solid;
+  color: white;
+  font-family: Ubuntu;
+  background-color: #FFDD00;
+}
+
+.logt:hover 
+{
+  border-color: #FFDD00;
+  border-width: 0.3vw;
+  border-style: solid;
+  color: #FFDD00;
+  font-family: Ubuntu;
+  background-color: white;
+  transition-duration: all 3ms;
+  transition: all 3ms;
+}
+
+.sign:hover
+{
+  border-color: #FFDD00;
+  border-width: 0.3vw;
+  border-style: solid;
+  color: #FFDD00;
+  font-family: Ubuntu;
+  background-color: white;
+  transition-duration: all 3ms;
+  transition: all 3ms;
+}
+
+.hdr
+{
+  position:static;
+}
+
+.rto
+{
+  height: 100vh;
+}
+
+.hme
+{
+  display:flex;
+  height: 90vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.crsl
+{
+  border-width: 5px;
+  border-style: solid;
+  border-color: yellow;
+  filter: sepia(30%);
+  width:50%;
+}
+
+.pflnot
+{
+  height: 85vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+}
+
+.pflyes
+{
+  height: 85vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+}
+
+.fundsc
+{
+  height: 85vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+}
+
+.ptbl
+{
+  font-family: 'Macondo';
+  font-size: 2.5vw;
+  border-color: #FFDD00;
+  text-align: center;
+  width:fit-content;
+}
+
+#r1
+{
+  color: #ff5900;
+  padding: 15px 20px 15px 20px;
+}
+
+#r2
+{
+  color: #C4AA00;
+  padding: 15px 20px 15px 20px;
+}
+
+.usrcrcl
+{
+  border-radius: 1000px;
+  border-color: #e6c805;
+  border-width: 5px;
+  border-style: solid;
+  color: white;
+  background-color: #e6c805;
+  justify-content: center;
+  align-items: center;
+  vertical-align:middle;
+  font-size: 15vw;
+  text-align: center;
+  margin-left:2.5vw;
+}
+
+.mdhdr
+{
+  font-family: macondo;
+  color: #e6c805;
+  text-decoration: underline;
+  justify-content: center;
+}
+
+.ff,.ff:focus
+{
+  margin-bottom: 3vh;
+  border-style: solid;
+  border-color: #FFDD00;
+  border-radius: 2px;
+}
+
+.frmsub
+{
+  margin: auto;
+  font-size: 2vw; 
+  font-family: 'Macondo';
+  list-style-type: none;
+  color:#C4AA00;  
+  text-decoration: none;
+  width:fit-content;
+  border-color: #C4AA00;
+  border-style: solid;
+  border-radius: 1px;
+  transition: all 1s;
+}
+
+.frmsub:hover
+{
+  font-size: 2vw; 
+  font-family: 'Macondo';
+  list-style-type: none;
+  color:white;  
+  text-decoration: none;
+  width:fit-content;
+  background-color: #C4AA00;
+  border-color: #C4AA00;
+  border-style: solid;
+  border-radius: 1px;
+
+  transition: all 1s;
+}
+
+.frmsubup
+{
+  margin: auto;
+  margin-bottom: 2vh ;
+  font-size: 1.5vw; 
+  font-family: 'Macondo';
+  list-style-type: none;
+  color:#C4AA00;  
+  text-decoration: none;
+  width:fit-content;
+  border-color: #C4AA00;
+  border-style: solid;
+  border-radius: 1px;
+  transition: all 1s;
+}
+
+.frmsubup:hover
+{
+  margin-bottom: 2vh ;
+  font-size: 1.5vw; 
+  font-family: 'Macondo';
+  list-style-type: none;
+  color:white;  
+  text-decoration: none;
+  width:fit-content;
+  background-color: #C4AA00;
+  border-color: #C4AA00;
+  border-style: solid;
+  border-radius: 1px;
+
+  transition: all 1s;
+}
+
+.donbt,.donbt:hover{
+  max-height: 4vw;
+  width: fit-content;
+  border-color: black;
+  border-width: 0.01vw;
+  border-style: solid;
+  color: white;
+  font-family: Ubuntu;
+  background-color: #FFDD00;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: auto;
+}
+
+.polyimg{
+    width:10vw;
+    border-radius:1000px;
+    margin-bottom:3vw;
+    margin-left:9.5vw;
+    border-style: solid;
+    border-width: 0.5vw;
+    border-color: #9d00c4;
+}
+
+.videodisp{
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  display: flex;
+}
