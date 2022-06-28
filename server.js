@@ -6,7 +6,7 @@ const fs = require('fs');
 const mongodb = require('mongodb');
 const MongoClient = require('mongodb').MongoClient;
 
-var url ="";
+var url =""; //mongodb client url to be written here
 
 const app = express();
 
